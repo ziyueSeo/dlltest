@@ -1,0 +1,148 @@
+﻿生成启动时间为 2017/5/16/周二 13:22:44。
+     1>项目“E:\xuexi\chengxu\interface_test\dll_test\dll_test\dll_test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\xuexi\chengxu\interface_test\dllinterface\dllinterface /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\dll_test.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\xuexi\chengxu\interface_test\dllinterface\dllinterface /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\dll_test.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dll_test.cpp
+         dll_test.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\xuexi\chengxu\interface_test\dll_test\Debug\dll_test.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\xuexi\chengxu\interface_test\dllinterface\Release dllinterface.lib IlmImf.lib libjasper.lib libjpeg.lib libpng.lib libtiff.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_videostab2413.lib zlib.lib IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib zlibd.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_objdetect2413d.lib opencv_superres2413d.lib opencv_stitching2413d.lib opencv_photo2413d.lib opencv_ocl2413d.lib opencv_nonfree2413d.lib opencv_ml2413d.lib opencv_legacy2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\xuexi\chengxu\interface_test\dll_test\Debug\dll_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\xuexi\chengxu\interface_test\dll_test\Debug\dll_test.lib" /MACHINE:X86 Debug\dll_test.obj
+         Debug\stdafx.obj
+     1>opencv_core2413.lib(system.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(system.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(alloc.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(alloc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(matrix.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(matrix.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(opencv_core_pch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(opencv_core_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(copy.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(copy.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(convert.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(convert.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(stat.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(stat.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(rand.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(rand.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(parallel.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(parallel.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(matop.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(matop.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(array.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(array.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(datastructs.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(datastructs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(gpumat.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(gpumat.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(opengl_interop_deprecated.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(opengl_interop_deprecated.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(opengl_interop.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(opengl_interop.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(arithm.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(arithm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(matmul.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(matmul.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(lapack.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(lapack.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(persistence.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(persistence.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(tables.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(tables.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_core2413.lib(mathfuncs.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(mathfuncs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(window.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(window.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(cap.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(cap.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(opencv_highgui_pch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(opencv_highgui_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(window_w32.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(window_w32.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(cap_dshow.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(cap_dshow.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(cap_images.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(cap_images.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(cap_ffmpeg.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(cap_ffmpeg.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(utils.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(utils.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(loadsave.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(loadsave.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_bmp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_bmp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_sunras.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_sunras.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_jpeg.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_pxm.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_pxm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_tiff.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_png.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_jpeg2000.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_exr.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(bitstrm.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(bitstrm.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_base.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_highgui2413.lib(grfmt_base.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(imgwarp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(imgwarp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(color.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(color.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(opencv_imgproc_pch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(opencv_imgproc_pch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(filter.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(filter.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(imgwarp_avx.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(imgwarp_avx.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(imgwarp_avx2.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(imgwarp_avx2.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(tables.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(tables.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(templmatch.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(templmatch.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(utils.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(utils.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(sumpixels.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_imgproc2413.lib(sumpixels.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __heap_alloc 已经在 LIBCMT.lib(malloc.obj) 中定义
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __msize 已经在 LIBCMT.lib(msize.obj) 中定义
+     1>LIBCMTD.lib(dbgheap.obj) : error LNK2005: __recalloc 已经在 LIBCMT.lib(recalloc.obj) 中定义
+     1>LIBCMTD.lib(isctype.obj) : error LNK2005: __isctype 已经在 LIBCMT.lib(isctype.obj) 中定义
+     1>LIBCMTD.lib(isctype.obj) : error LNK2005: __isctype_l 已经在 LIBCMT.lib(isctype.obj) 中定义
+     1>LIBCMTD.lib(dbghook.obj) : error LNK2005: __crt_debugger_hook 已经在 LIBCMT.lib(dbghook.obj) 中定义
+     1>opencv_core2413.lib(dxt.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项:  值“0”不匹配值“2”(dll_test.obj 中)
+     1>opencv_core2413.lib(dxt.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项:  值“MT_StaticRelease”不匹配值“MTd_StaticDebug”(dll_test.obj 中)
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _ICOpen@12，该符号在函数 "public: virtual struct _IplImage * __thiscall CvCaptureCAM_VFW::retrieveFrame(int)" (?retrieveFrame@CvCaptureCAM_VFW@@UAEPAU_IplImage@@H@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _ICClose@4，该符号在函数 "public: virtual void __thiscall CvCaptureCAM_VFW::close(void)" (?close@CvCaptureCAM_VFW@@UAEXXZ) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _ICSendMessage@16，该符号在函数 "public: virtual void __thiscall CvCaptureCAM_VFW::close(void)" (?close@CvCaptureCAM_VFW@@UAEXXZ) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _ICDecompress，该符号在函数 "public: virtual struct _IplImage * __thiscall CvCaptureCAM_VFW::retrieveFrame(int)" (?retrieveFrame@CvCaptureCAM_VFW@@UAEPAU_IplImage@@H@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIFileInit@0，该符号在函数 "void __cdecl icvInitCapture_VFW(void)" (?icvInitCapture_VFW@@YAXXZ) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIFileRelease@4，该符号在函数 "public: virtual __thiscall CvCaptureAVI_VFW::~CvCaptureAVI_VFW(void)" (??1CvCaptureAVI_VFW@@UAE@XZ) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIFileOpenA@16，该符号在函数 "public: virtual bool __thiscall CvCaptureAVI_VFW::open(char const *)" (?open@CvCaptureAVI_VFW@@UAE_NPBD@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIFileGetStream@16，该符号在函数 "public: virtual bool __thiscall CvCaptureAVI_VFW::open(char const *)" (?open@CvCaptureAVI_VFW@@UAE_NPBD@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIFileCreateStreamA@12，该符号在函数 "protected: bool __thiscall CvVideoWriter_VFW::createStreams(struct CvSize,bool)" (?createStreams@CvVideoWriter_VFW@@IAE_NUCvSize@@_N@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIStreamRelease@4，该符号在函数 "public: virtual __thiscall CvCaptureAVI_VFW::~CvCaptureAVI_VFW(void)" (??1CvCaptureAVI_VFW@@UAE@XZ) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIStreamInfoA@12，该符号在函数 "public: virtual bool __thiscall CvCaptureAVI_VFW::open(char const *)" (?open@CvCaptureAVI_VFW@@UAE_NPBD@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIStreamSetFormat@16，该符号在函数 "protected: bool __thiscall CvVideoWriter_VFW::createStreams(struct CvSize,bool)" (?createStreams@CvVideoWriter_VFW@@IAE_NUCvSize@@_N@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIStreamWrite@32，该符号在函数 "public: virtual bool __thiscall CvVideoWriter_VFW::writeFrame(struct _IplImage const *)" (?writeFrame@CvVideoWriter_VFW@@UAE_NPBU_IplImage@@@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIStreamGetFrameOpen@8，该符号在函数 "public: virtual bool __thiscall CvCaptureAVI_VFW::open(char const *)" (?open@CvCaptureAVI_VFW@@UAE_NPBD@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIStreamGetFrame@8，该符号在函数 "public: virtual bool __thiscall CvCaptureAVI_VFW::grabFrame(void)" (?grabFrame@CvCaptureAVI_VFW@@UAE_NXZ) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIStreamGetFrameClose@4，该符号在函数 "public: virtual __thiscall CvCaptureAVI_VFW::~CvCaptureAVI_VFW(void)" (??1CvCaptureAVI_VFW@@UAE@XZ) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVIMakeCompressedStream@16，该符号在函数 "protected: bool __thiscall CvVideoWriter_VFW::createStreams(struct CvSize,bool)" (?createStreams@CvVideoWriter_VFW@@IAE_NUCvSize@@_N@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _AVISaveOptions@20，该符号在函数 "protected: bool __thiscall CvVideoWriter_VFW::createStreams(struct CvSize,bool)" (?createStreams@CvVideoWriter_VFW@@IAE_NUCvSize@@_N@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _capCreateCaptureWindowA@32，该符号在函数 "public: virtual bool __thiscall CvCaptureCAM_VFW::open(int)" (?open@CvCaptureCAM_VFW@@UAE_NH@Z) 中被引用
+     1>opencv_highgui2413.lib(cap_vfw.obj) : error LNK2019: 无法解析的外部符号 _capGetDriverDescriptionA@20，该符号在函数 "public: virtual bool __thiscall CvCaptureCAM_VFW::open(int)" (?open@CvCaptureCAM_VFW@@UAE_NH@Z) 中被引用
+     1>E:\xuexi\chengxu\interface_test\dll_test\Debug\dll_test.exe : fatal error LNK1120: 20 个无法解析的外部命令
+     1>已完成生成项目“E:\xuexi\chengxu\interface_test\dll_test\dll_test\dll_test.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.74
